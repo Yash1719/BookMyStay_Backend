@@ -10,7 +10,7 @@ import cors from 'cors';
 dotenv.config();
 
 
-console.log("MONGODB_URI from .env:",process.env.MONGODB_URI);
+// console.log("MONGODB_URI from .env:",process.env.MONGODB_URI);
 const uri = process.env.MONGODB_URI;
 
 
